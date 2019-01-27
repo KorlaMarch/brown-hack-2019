@@ -3,6 +3,6 @@ c:\users\korlamarch\desktop\github\brown-hack-2019\myo_infinity_stone\include\my
   c:\users\korlamarch\desktop\github\brown-hack-2019\myo_infinity_stone\include\myo\cxx\detail\throwonerror.hpp(39): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
 c:\users\korlamarch\desktop\github\brown-hack-2019\myo_infinity_stone\include\myo\cxx\detail\throwonerror.hpp(45): warning C4297: 'myo::ThrowOnError::~ThrowOnError': function assumed not to throw an exception but does
   c:\users\korlamarch\desktop\github\brown-hack-2019\myo_infinity_stone\include\myo\cxx\detail\throwonerror.hpp(45): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
-c:\users\korlamarch\desktop\github\brown-hack-2019\myo_infinity_stone\myo_infinity_stone\myo_infinity_stone.cpp(217): warning C4101: 'res': unreferenced local variable
-c:\users\korlamarch\desktop\github\brown-hack-2019\myo_infinity_stone\myo_infinity_stone\myo_infinity_stone.cpp(216): warning C4101: 'curl': unreferenced local variable
+c:\users\korlamarch\desktop\github\brown-hack-2019\myo_infinity_stone\myo_infinity_stone\myo_infinity_stone.cpp(223): warning C4101: 'res': unreferenced local variable
+c:\users\korlamarch\desktop\github\brown-hack-2019\myo_infinity_stone\myo_infinity_stone\myo_infinity_stone.cpp(222): warning C4101: 'curl': unreferenced local variable
   myo_infinity_stone.vcxproj -> C:\Users\Korlamarch\Desktop\Github\brown-hack-2019\myo_infinity_stone\x64\Debug\myo_infinity_stone.exe
