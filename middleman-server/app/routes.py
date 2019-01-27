@@ -6,11 +6,15 @@ from app.models import HackSwitch
 @app.route('/')
 @app.route('/index')
 def index():
-    state = HackSwitch.query.get(1).on
-    if state:
-        return "on"
+    res = ""
+    switch = HackSwitch.query.get(1)
+    if switch.on:
+        res += "on"
     else:
-        return "off"
+        res += "off"
+    res += " " + str(switch.angle_x)
+    res += " " + str(switch.angle_y)
+    return res
 
 @app.route('/on')
 def on():
@@ -23,5 +27,13 @@ def on():
 def off():
     switch = HackSwitch.query.get(1)
     switch.on = False
+    db.session.commit()
+    return "ok"
+
+@app.route('/submit')
+def angle():
+    switch = HackSwitch.query.get(1)
+    switch.angle_x = float(request.args.get('anglex'))
+    switch.angle_y = float(request.args.get('angley'))
     db.session.commit()
     return "ok"
