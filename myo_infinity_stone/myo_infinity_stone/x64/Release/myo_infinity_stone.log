@@ -1,0 +1,11 @@
+﻿  stdafx.cpp
+  myo_infinity_stone.cpp
+c:\users\korlamarch\desktop\github\brown-hack-2019\myo_infinity_stone\include\myo\cxx\detail\throwonerror.hpp(39): warning C4297: 'myo::ThrowOnError::~ThrowOnError': function assumed not to throw an exception but does
+  c:\users\korlamarch\desktop\github\brown-hack-2019\myo_infinity_stone\include\myo\cxx\detail\throwonerror.hpp(39): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+c:\users\korlamarch\desktop\github\brown-hack-2019\myo_infinity_stone\include\myo\cxx\detail\throwonerror.hpp(45): warning C4297: 'myo::ThrowOnError::~ThrowOnError': function assumed not to throw an exception but does
+  c:\users\korlamarch\desktop\github\brown-hack-2019\myo_infinity_stone\include\myo\cxx\detail\throwonerror.hpp(45): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+c:\users\korlamarch\desktop\github\brown-hack-2019\myo_infinity_stone\myo_infinity_stone\myo_infinity_stone.cpp(179): warning C4101: 'res': unreferenced local variable
+  Generating code
+  All 306 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  myo_infinity_stone.vcxproj -> C:\Users\Korlamarch\Desktop\Github\brown-hack-2019\myo_infinity_stone\x64\Release\myo_infinity_stone.exe
